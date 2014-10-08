@@ -42,6 +42,8 @@
       },
       "runtime" : {
          "requires" : {
+            "Class::Accessor" : "0",
+            "DateTime" : "0",
             "perl" : "5.008001"
          }
       },
@@ -52,6 +54,17 @@
       }
    },
    "release_status" : "unstable",
-   "version" : "0.01",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/catatsuy/acme-2zicon/issues"
+      },
+      "homepage" : "https://github.com/catatsuy/acme-2zicon",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/catatsuy/acme-2zicon.git",
+         "web" : "https://github.com/catatsuy/acme-2zicon"
+      }
+   },
+   "version" : "0.1",
    "x_authority" : "cpan:CATATSUY"
 }
