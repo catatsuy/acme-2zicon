@@ -93,20 +93,70 @@ Acme::2zicon - It's new $module
 
     use Acme::2zicon;
 
+    my $nizicon = Acme::2zicon->new;
+
+    # retrieve the members on their activities
+    my @members         = $nizicon->members;
+
+    # retrieve the members under some conditions
+    my @sorted_by_age   = $nizicon->sort('age', 1);
+    my @selected_by_age = $nizicon->select('age', 16, '>=');
+
+
 =head1 DESCRIPTION
 
-Acme::2zicon is ...
+=head1 METHODS
+
+=head2 new
+
+    my $nizicon = Acme::2zicon->new;
+
+    Creates and returns a new Acme::2zicon object.
+
+=head2 members
+
+    my @members = $nizicon->members();
+
+=head2 sort ( $type, $order \[ , @members \] )
+
+    my @sorted_members = $nizicon->sort('age', 1);
+
+=head2 select ( $type, $number, $operator \[, @members\] )
+
+    # $type can be one of the same values above:
+    my @selected_members = $nizicon->select('age', 16, '>=');
+
+    $number $operator $member_value
+
 
 =head1 LICENSE
 
-Copyright (C) catatsuy.
-
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
+MIT License
 
 =head1 AUTHOR
 
 catatsuy E<lt>catatsuy@catatsuy.orgE<gt>
+
+=head1 SEE ALSO
+
+(Japanese text only)
+
+=over 4
+
+=item * 虹のコンキスタドール
+
+L<http://pixiv-pro.com/2zicon/>
+
+=item * プロフィール - 虹のコンキスタドール
+
+L<http://pixiv-pro.com/2zicon/profile>
+
+=back
+
+=head1 NOTE
+
+This product has nothing to do with pixiv Inc. and pixiv production Inc. and 2zicon.
+
 
 =cut
 
