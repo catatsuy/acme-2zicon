@@ -5,7 +5,7 @@ use warnings;
 
 use base qw(Acme::2zicon::Base);
 
-our $VERSION = '0.2';
+our $VERSION = '0.2.1';
 
 sub info {
     my $self = shift;
