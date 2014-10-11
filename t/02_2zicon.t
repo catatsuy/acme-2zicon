@@ -18,5 +18,6 @@ for my $member (@members) {
     ok $member->age,                      '  age()';
     ok $member->blood_type,               '  blood_type()';
     ok $member->hometown,                 '  hometown()';
+    ok $member->introduction,             '  introduction()';
     ok $member->twitter,                  '  twitter()';
 }

@@ -39,6 +39,7 @@ sub _initialize {
     $self->{name_ja} = $self->family_name_ja.$self->first_name_ja;
     $self->{name_en} = $self->first_name_en.' '.$self->family_name_en;
     $self->{age}     = $self->_calculate_age;
+    $self->{introduction} = $self->_introduction($info{introduction});
 
     return 1;
 }
@@ -67,6 +68,12 @@ sub _datetime_from_date {
         month => $month,
         day   => $day,
     );
+}
+
+sub _introduction {
+    my ($self, $introduction) = @_;
+    $introduction =~ s/\[(\w+)\]/$self->{$1}/g;
+    return $introduction;
 }
 
 1;
