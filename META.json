@@ -6,7 +6,7 @@
    "dynamic_config" : 0,
    "generated_by" : "Minilla/v2.1.1, CPAN::Meta::Converter version 2.142690",
    "license" : [
-      "perl_5"
+      "unknown"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
@@ -65,6 +65,6 @@
          "web" : "https://github.com/catatsuy/acme-2zicon"
       }
    },
-   "version" : "0.1",
+   "version" : "0.2",
    "x_authority" : "cpan:CATATSUY"
 }

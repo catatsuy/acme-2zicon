@@ -1,6 +1,6 @@
 # NAME
 
-Acme::2zicon
+Acme::2zicon - It's new $module
 
 # SYNOPSIS
 
@@ -29,17 +29,16 @@ Acme::2zicon
 
     my @members = $nizicon->members();
 
-## sort ( $type, $order \[ , @members \] )
+## sort ( $type, $order \\\[ , @members \\\] )
 
     my @sorted_members = $nizicon->sort('age', 1);
 
-## select ( $type, $number, $operator \[, @members\] )
+## select ( $type, $number, $operator \\\[, @members\\\] )
 
     # $type can be one of the same values above:
     my @selected_members = $nizicon->select('age', 16, '>=');
 
     $number $operator $member_value
-
 
 # LICENSE
 
@@ -53,8 +52,13 @@ catatsuy <catatsuy@catatsuy.org>
 
 (Japanese text only)
 
-  * [虹のコンキスタドール](http://pixiv-pro.com/2zicon/)
-  * [プロフィール - 虹のコンキスタドール](http://pixiv-pro.com/2zicon/profile)
+- 虹のコンキスタドール
+
+    [http://pixiv-pro.com/2zicon/](http://pixiv-pro.com/2zicon/)
+
+- プロフィール - 虹のコンキスタドール
+
+    [http://pixiv-pro.com/2zicon/profile](http://pixiv-pro.com/2zicon/profile)
 
 # NOTE
 
