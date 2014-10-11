@@ -19,6 +19,7 @@ __PACKAGE__->mk_accessors(qw(
     age
     blood_type
     hometown
+    introduction
     twitter
 ));
 
