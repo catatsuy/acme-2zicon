@@ -1,6 +1,9 @@
 Revision history for Perl extension Acme-2zicon
 {{$NEXT}}
 
+0.4 2014-11-21T14:22:02Z
+    - measure to decrease versions
+
 0.3.1 2014-11-02T13:43:25Z
     - add Tsurumi Moe's introduction
 

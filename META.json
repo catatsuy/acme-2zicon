@@ -65,6 +65,6 @@
          "web" : "https://git@github.com/catatsuy/acme-2zicon"
       }
    },
-   "version" : "0.3.1",
+   "version" : "0.4",
    "x_authority" : "cpan:CATATSUY"
 }
