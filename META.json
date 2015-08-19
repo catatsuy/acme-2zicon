@@ -4,7 +4,7 @@
       "catatsuy <catatsuy@catatsuy.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v2.1.3, CPAN::Meta::Converter version 2.142690",
+   "generated_by" : "Minilla/v2.5.0, CPAN::Meta::Converter version 2.150001",
    "license" : [
       "unknown"
    ],
@@ -56,15 +56,15 @@
    "release_status" : "unstable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://git@github.com/catatsuy/acme-2zicon/issues"
+         "web" : "https://github.com/catatsuy/acme-2zicon/issues"
       },
-      "homepage" : "https://git@github.com/catatsuy/acme-2zicon",
+      "homepage" : "https://github.com/catatsuy/acme-2zicon",
       "repository" : {
          "type" : "git",
-         "url" : "git://git@github.com/catatsuy/acme-2zicon.git",
-         "web" : "https://git@github.com/catatsuy/acme-2zicon"
+         "url" : "git://github.com/catatsuy/acme-2zicon.git",
+         "web" : "https://github.com/catatsuy/acme-2zicon"
       }
    },
-   "version" : "0.4",
+   "version" : "0.5",
    "x_authority" : "cpan:CATATSUY"
 }

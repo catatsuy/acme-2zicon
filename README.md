@@ -46,7 +46,7 @@ MIT License
 
 # AUTHOR
 
-catatsuy <catatsuy@catatsuy.org>
+catatsuy &lt;catatsuy@catatsuy.org>
 
 # SEE ALSO
 
