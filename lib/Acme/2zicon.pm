@@ -18,7 +18,6 @@ my @members = qw(
     OkumuraNonoka
     ShigematsuYuka
     SuyamaEmiri
-    YoshimuraNana
     TsurumiMoe
 );
 
