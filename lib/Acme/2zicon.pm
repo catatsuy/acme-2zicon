@@ -9,16 +9,16 @@ use DateTime;
 our $VERSION = "0.5";
 
 my @members = qw(
-    KinoshitaHiyori
     MatobaKarin
     NagataMinari
     NakamuraAkari
     NemotoNagi
-    NishiNanami
     OkumuraNonoka
     ShigematsuYuka
     SuyamaEmiri
     TsurumiMoe
+    OtsukaMiyu
+    YamatoAo
 );
 
 sub new {
