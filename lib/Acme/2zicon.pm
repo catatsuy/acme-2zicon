@@ -10,7 +10,6 @@ our $VERSION = "0.6";
 
 my @members = qw(
     MatobaKarin
-    NagataMinari
     NakamuraAkari
     NemotoNagi
     OkumuraNonoka
