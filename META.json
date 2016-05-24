@@ -4,7 +4,7 @@
       "catatsuy <catatsuy@catatsuy.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v3.0.1, CPAN::Meta::Converter version 2.142690",
+   "generated_by" : "Minilla/v3.0.1, CPAN::Meta::Converter version 2.150001",
    "license" : [
       "unknown"
    ],
@@ -65,6 +65,6 @@
          "web" : "https://github.com/catatsuy/acme-2zicon"
       }
    },
-   "version" : "0.6",
+   "version" : "0.7",
    "x_authority" : "cpan:CATATSUY"
 }
